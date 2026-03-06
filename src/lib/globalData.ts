@@ -1,27 +1,32 @@
-newBackgroundImageURL="https://res.cloudinary.com/dbgee370f/image/upload/v1772840243/layer_msjx00.png"
 
 export const heroData = {
    logo: {
       src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F9a5b0435d60c31ca9d769e18138f053c4a4c7c15.svg?generation=1772832722455911&alt=media",
-      alt: "home",
-      href: "https://visuo-temlis.webflow.io/",
+      alt: "logo",
+      href: "/",
    },
    navigation: [
-      { label: "Workflow", href: "https://visuo-temlis.webflow.io/#workflow" },
-      { label: "Statistics", href: "https://visuo-temlis.webflow.io/#stats" },
-      { label: "Articles", href: "https://visuo-temlis.webflow.io/#articles" },
+      { label: "Features", href: "#features" },
+      { label: "Solution", href: "#solution" },
+      { label: "Pricing", href: "#pricing" },
+      { label: "About", href: "#about" },
    ],
-   cta: {
-      label: "Get started",
-      href: "https://temlis.com/",
+   ctaPrimary: {
+      label: "Sign Up",
+      href: "#",
    },
-   badge: "Simplify your workflow",
-   headline: "Enhance your financial control with Visuo",
-   description: "Streamline your business's financial management with our intuitive, scalable SaaS platform. Designed for U.S. enterprises.",
-   backgroundImages: {
-      bottom: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fc6f6bd08f2d350cd92bc1c4393da67f509365bcf.avif?generation=1772832722427075&alt=media",
-      top: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fe4ccbcce53a0198e9e57fa4ea2c5bc6609343bad.avif?generation=1772832722441332&alt=media",
+   ctaSecondary: {
+      label: "Login",
+      href: "#",
    },
+   heroButtons: {
+      primary: { label: "Start Building", href: "#" },
+      secondary: { label: "Request a demo", href: "#" }
+   },
+   badge: "Backed by Y Combinator",
+   headline: "Build and Ship 10x faster with NS",
+   description: "Tailwindcss highly customizable components for building modern websites and applications that look and feel the way you mean it.",
+   backgroundImage: "https://res.cloudinary.com/dbgee370f/image/upload/v1772840243/layer_msjx00.png",
    mainImage: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F2611396bc0bd4c44efff3a12a7f4690ea383aed7.avif?generation=1772832722446739&alt=media",
 };
 
