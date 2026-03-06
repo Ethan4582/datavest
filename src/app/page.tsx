@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "../components/hero";
 import Workflow from "../components/workflow";
 import Statistics from "../components/statistics";
@@ -9,14 +8,14 @@ import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div>
-      <Hero/>
-      <Workflow/>
-      <Statistics/>
-      <Simplify/>
-      <Testimonials/>
-      <Articles/>
-      <Footer/>
+    <div className="flex flex-col">
+      <Hero />
+      <Workflow />
+      <Statistics />
+      <Simplify />
+      <Testimonials />
+      <Articles />
+      <Footer />
     </div>
   );
 }
